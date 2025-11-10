@@ -1,6 +1,6 @@
 # Fashion MNIST Classification with Neural Networks
 
-This project implements a neural network-based classifier for the Fashion MNIST dataset using **TensorFlow Keras**. The goal is is to classify images of fashion items into 10 categories.
+This project implements a neural network-based classifier for the Fashion MNIST dataset using **TensorFlow Keras**. The goal is to classify images of fashion items into 10 categories.
 
 ---
 
@@ -22,13 +22,13 @@ We built a fully-connected neural network with three hidden layers to classify F
 
 ## **Project Structure**
 
-\`\`\`
+```
 fashion-mnist-classification/
 │
 ├── fashion_mnist_nn.py      # Main Python script with model, training, and evaluation
 ├── README.md                 # Project README file
 └── venv/                     # Virtual environment (optional)
-\`\`\`
+```
 
 ---
 
@@ -36,23 +36,23 @@ fashion-mnist-classification/
 
 ### 1. Clone the repository
 
-\`\`\`bash
+```bash
 git clone <your-github-repo-link>
 cd fashion-mnist-classification
-\`\`\`
+```
 
 ### 2. Create a virtual environment (optional but recommended)
 
-\`\`\`bash
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-\`\`\`
+```
 
 ### 3. Install required packages
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
@@ -60,9 +60,9 @@ pip install -r requirements.txt
 
 Run the main script to train and evaluate the model:
 
-\`\`\`bash
+```bash
 python fashion_mnist_nn.py
-\`\`\`
+```
 
 ### This will:
 
@@ -120,13 +120,13 @@ We used the following hyperparameters:
 
 ## **Requirements**
 
-\`\`\`
+```
 tensorflow>=2.x
 numpy
 matplotlib
 scikit-learn
 seaborn
-\`\`\`
+```
 
 ---
 
